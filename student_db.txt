@@ -1,0 +1,4 @@
+DDU140001;Abreham Tola;M;CS;3.5
+DDU140002;Blen Tariku;F;SE;2.9
+DDU140004;Tesfu Seyfe;M;CS;3.4
+DDU140005;Tesfu Seyfe;M;CS;1.5

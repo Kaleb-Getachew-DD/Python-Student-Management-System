@@ -1,0 +1,208 @@
+###############################################################################
+The Student Mangement System User Interface looks in terminal.
+
+*************************************STUDENT MANAGEMENT SYSTEM*************************************
+
+ Select your choice      
+1. Register a new student
+2. Search for a student  
+3. Update student GPA    
+4. Update student Name   
+5. Display all students
+6. Delete student by ID
+7. Count and display total number of students
+8. Count Total Number of male and female students
+9. Display name and department of top scored student for each department
+10. Display name and department of top scored female student for each department
+11. List names of students who scored greater than a given GPA
+12. Show frequent student names
+13. Show total number of students in each department
+14. EXIT
+
+ Enter your choice:
+
+ It have 14 Features we'll see an Example of the features below.
+
+#Registration of New Student
+
+Explanation:
+Registration of New Student:
+This feature allows the user to register a new student by providing details such as student ID, name, GPA, department, and gender. After successful registration, the system prompts the user to continue if there are more students to register.
+
+Enter your choice: 1
+Registration form
+Enter the number of students: 1
+Enter student id: DDU1401111 
+Enter student name: Abrham
+Enter student GPA: 3.5
+Enter the department: Computer Science
+Enter student gender: M
+Registered successfully continue if any...
+
+# Search Student by ID
+
+Explanation:
+Search Student by ID:
+
+Users can search for a student by entering their ID. If the student is found in the database, their details including name, GPA, and gender are displayed.
+
+Enter your choice: 2
+Enter student ID to search: DDU1401111
+##### Data found ###########
+Name: Abrham, GPA: 3.5
+, Gender: M
+
+# Update Student GPA
+
+Explanation:
+Update Student GPA:
+
+This feature enables the user to update a student's GPA by providing the student's ID and the corrected GPA. Upon successful update, the system confirms the data modification.
+
+Enter your choice: 3
+Enter student ID: DDU1401111
+Enter corrected New GPA: 3.8
+Data of student Abrham updated successfully!
+
+# Update Student Name
+
+Explanation:
+Update Student Name:
+
+Similar to updating GPA, this feature allows the user to update a student's name by providing the student's ID and the corrected name. The system confirms the update upon success.
+
+Enter your choice: 4
+Enter student ID: DDU1401111
+Enter corrected New Name: Abreham
+Data of student DDU1401111 updated successfully!
+
+# Display All Student
+
+Explanation:
+Display All Students:
+
+This feature displays all the students currently registered in the system along with their details including ID, name, gender, department, and GPA.
+
+ Enter your choice: 5
+Student database:
+ ID: DDU1402313
+ Name: Kaleb
+ Gender: M
+ Department: CS
+ GPA: 4.0
+******************************
+ ID: DDU1402464
+ Name: Bethelhem
+ Gender: F
+ Department: SE
+ GPA: 3.5
+******************************
+ ID: DDU1401111
+ Name: Abreham
+ Gender: M
+ Department: CS
+ GPA: 3.8
+******************************
+
+# Delete Student By ID
+
+Explanation:
+Delete Student By ID:
+Users can delete a student from the database by providing their ID. Upon successful deletion, the system confirms the removal of the student.
+
+Enter your choice: 6
+Enter student ID: DDU1401111
+Student with ID DDU1401111 deleted successfully.
+
+# Count and display total number of students
+
+Explanation:
+Count and Display Total Number of Students:
+
+This feature calculates and displays the total number of students currently registered in the system.
+
+Enter your choice: 7
+
+*****************
+Total number of Students are 2
+*****************
+
+#Count Total Number of male and female students
+
+Explanation:
+Count Total Number of Male and Female Students:
+Similar to counting total students, this feature calculates and displays the total number of male and female students separately.
+
+Enter your choice: 8
+
+*****************
+Total number of Male Students are 1
+Total number of Female Students are 1
+*****************
+
+#Display name and department of top scored student for each department
+
+Explanation:
+Display Name and Department of Top Scored Student for Each Department:
+Users can find and display the top-scoring student along with their department. They need to specify the department for which they want to find the top-scoring student.
+
+ Enter your choice: 9
+######   Top-Scoring Students from Department   ######
+Enter the Department: CS
+******************************
+The Top Student from CS Department is Kaleb
+Top GPA 4.0
+******************************
+
+# Display name and department of top scored female student for each department
+
+Explanation:
+Display Name and Department of Top Scored Female Student for Each Department:
+Similar to the previous feature, this one specifically finds and displays the top-scoring female student for each department.
+
+ Enter your choice: 10
+######   Top-Scoring Female Students from Department   ######
+Enter the Department: SE
+******************************
+The Top Female Student from SE Department is Bethelhem
+Top GPA 3.5
+******************************
+
+# List names of students who scored greater than a given GPA
+
+Explanation:
+List Names of Students Who Scored Greater Than a Given GPA:
+Users can input a GPA and the system will list the names of students who scored greater than that GPA.
+
+ Enter your choice: 11
+Enter student GPA to search: 3.5
+##### Data found ###########
+Name: Kaleb, GPA: 4.0
+
+##### Data found ###########
+Name: Bethelhem, GPA: 3.5
+
+# Show frequent student names
+
+Explanation:
+Show Frequent Student Names:
+This feature identifies and displays the names of students who occur frequently in the database along with their frequency.
+
+Enter your choice: 12
+****Frequent Student Name in File****
+Bethelhem: with frequency 2
+
+# Show total number of students in each department
+
+Explanation:
+Show Total Number of Students in Each Department:
+Users can specify a department, and the system will count and display the total number of students enrolled in that department.
+
+Enter your choice: 13
+Enter the Name of the Department: CS
+
+ ###### Total Number of Students in CS Department ######
+
+*****************
+Total number of Students are 2 in department of CS
+*****************
