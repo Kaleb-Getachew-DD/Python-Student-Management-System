@@ -73,10 +73,3 @@ Instructions:
 
 Thank you for using the Student Management System!
 
-    Group Members
-
-1. Kaleb Getachew 1402313
-2. Soressa Dima 1403019
-3. Kiya Habtamu 1402365
-4. Samrawit Tsehayneh 1402905
-5. Kalehiwot Desalegn 1402314
