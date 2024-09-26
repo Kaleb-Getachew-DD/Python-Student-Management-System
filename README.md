@@ -1,7 +1,3 @@
-Here's a basic `README.md` for your Student Management System project:
-
----
-
 # Student Management System
 
 ## Overview
